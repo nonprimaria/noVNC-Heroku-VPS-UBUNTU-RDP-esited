@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM danielguerra/ubuntu-xrdp:kali
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y

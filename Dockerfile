@@ -1,4 +1,4 @@
-FROM kalilinux/kali-linux-docker
+FROM parrotsec/build:rolling-amd64
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y
